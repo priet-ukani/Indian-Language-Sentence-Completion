@@ -1,0 +1,2 @@
+# Indian Language Sentence Completion
+Developed a cutting-edge input mechanism for typing text in Telugu. This chrome extension Software is designed to automate the process of recognising the language and provide the user with suggested words and phrases that are most relevant to the context of the text. This approach helps to speed up the process of communication while also preventing any potential errors in the written text.

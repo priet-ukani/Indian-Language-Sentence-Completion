@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POST Request Example</title>
+</head>
+<body>
+    <h1>Send POST Request</h1>
+
+    <script>
+        const NGROK_LINK = "https://d526-35-223-54-28.ngrok-free.app/";
+
+        const payload = { text: 'పుట్టిన రోజు ' };
+
+        const headers = { 'Content-Type': 'application/json' };
+
+        fetch(NGROK_LINK, {
+            method: 'POST',
+            headers: headers,
+            body: JSON.stringify(payload),
+
+        })
+        .then(response => response.text())
+        .then(data => {
+            console.log(typeof data); 
+            console.log(data); 
+        })
+        .catch(error => {
+            console.error('Error:', error);
+        });
+    </script>
+</body>
+</html>

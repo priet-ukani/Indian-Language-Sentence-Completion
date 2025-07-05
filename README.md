@@ -69,14 +69,8 @@ Prerequisite: Currently Local Server should be running on some laptop to ensure 
 
 
 
-## Team Members
-
-List of team members involved in the project.
 
 - [Priet Ukani](https://github.com/priet-ukani)
-- [Siddharth Agarwal](https://github.com/member2)
-- [Shreyansh](https://github.com/member3)
-- [Garvit Gupta](https://github.com/GarvitGuptaofficial)
 
 
 <!-- 
